@@ -1,4 +1,5 @@
 # Iris-Classification
+This analysis the Iris dataset to classify species using scaled features using classification
 
 ## Problem 
 - Analyze Iris dataset and apply feature scaling using StandardScaler.
@@ -19,7 +20,8 @@
 
 ## Data Cleaning
 
-No data cleaning had to be preformed on this data.
+No data cleaning had to be preformed on this dataset, no missing value, NaN values or special characters were present in the dataset, outliers were deteched 
+
 
 
 ### Key Visualization
@@ -32,30 +34,38 @@ This pairplot shows the difference featueres for the petals and sepals. It shows
 ![pairplot](./images/iris_pairplot_2.png)
 
 
-
 #### Visualization 2: 
 This charts shows the distrubtion between species across the different flowers (setosa, versicolor, virginica)
 ![iris](./images/iris_chart_1.png)
 
+
+#### Visualization 3: 
+Lasly, this heatmap shows the correlation between the `sepal_length`, `sepal_width` and `petal_length`, `petal_width`.
+
+As you can see from the heatmap, the strongest correlation is between petal witdh and petal height with `0.96` correlation.
+
+![HeatMap](./images/heatMap.png)
+
+
+
 ## Conclusions/Recommendations
 
-the dataset was trained on with the data
+the dataset was trained on with the iris dataset 
 
 - KNeighbors Regression
-- HistGradientBooot Regression
 - Linear Regression
 - Random Forest Regression
 
-The result of the models are below
+The result of the models 
 
 | Model               | Accuracy |
 | ------------------- | -------- |
 | KNeighbors          | 0.82     |
-| HistGradientBooting | 0.74     |
 | Linear Regression   | 0.79     |
 | Random Forest       | 0.99     |
 
-Here the best score here is the Random Forest was trained on the four features.
+<br>
 
+Here the best score here is the Random Forest was trained on the four features.
 
 
