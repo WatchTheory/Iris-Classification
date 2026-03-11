@@ -5,17 +5,6 @@ This analysis the Iris dataset to classify species using scaled features using c
 - Analyze Iris dataset and apply feature scaling using StandardScaler.
 
 
-## Data Dictionary
-
-| Column       | Description                                                 |
-| ------------ | ----------------------------------------------------------- |
-| sepal_length | Length of the sepal of the flower (cm).                     |
-| sepal_width  | Width of the sepal of the flower (cm).                      |
-| petal_length | Length of the petal of the flower (cm).                     |
-| petal_width  | Width of the petal of the flower (cm).                      |
-| species      | Species of the iris flower (setosa, versicolor, virginica). |
-
-
 ## Summary
 
 ## Data Cleaning
